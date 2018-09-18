@@ -1,10 +1,10 @@
 ## First Version
 
-[https://public.tableau.com/views/Udacity-BaseballData/5?:embed=y&:display_count=yes&publish=yes](https://public.tableau.com/views/Udacity-BaseballData/5?:embed=y&:display_count=yes&publish=yes)
+[https://public.tableau.com/views/Udacity-BaseballData/1_1?:embed=y&:display_count=yes](https://public.tableau.com/views/Udacity-BaseballData/1_1?:embed=y&:display_count=yes) 
 
 ## Final Version
 
-[https://public.tableau.com/views/Udacity-BaseballData/1_1?:embed=y&:display_count=yes](https://public.tableau.com/views/Udacity-BaseballData/1_1?:embed=y&:display_count=yes) 
+[https://public.tableau.com/views/Udacity-BaseballDataVer_2/1?:embed=y&:display_count=yes](https://public.tableau.com/views/Udacity-BaseballDataVer_2/1?:embed=y&:display_count=yes) 
 
 ## Summary
 
@@ -15,7 +15,6 @@ The batter's body condition seems to have related to the batting average and the
 ### Sheet 1
 
 A scatter plot is chosen to visualize the relation between hitting average and home run count. The color and filter on handedness were used to show any dependence of data on handedness. To prevent the confusion caused by the scale changes, to the scale of the axis is fixed.
-
 
 ### Sheet 2, 4
 
