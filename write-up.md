@@ -1,82 +1,40 @@
-<!----- Conversion time: 0.756 seconds.
-
-
-Using this Markdown file:
-
-1. Cut and paste this output into your source file.
-2. See the notes and action items below regarding this conversion run.
-3. Check the rendered output (headings, lists, code blocks, tables) for proper
-   formatting and use a linkchecker before you publish this page.
-
-Conversion notes:
-
-* GD2md-html version 1.0β11
-* Mon Sep 17 2018 23:24:18 GMT-0700 (PDT)
-* Source doc: https://docs.google.com/open?id=1dI_pduUL9YA4uMj1phURKkkn7BXL1qv0RsJEPR5FmP0
-
-WARNING:
-You have 5 H1 headings. You may want to use the "H1 -> H2" option to demote all headings by one level.
-
------>
-
-
-<p style="color: red; font-weight: bold">>>>>>  gd2md-html alert:  ERRORs: 0; WARNINGs: 1; ALERTS: 0.</p>
-<ul style="color: red; font-weight: bold"><li>See top comment block for details on ERRORs and WARNINGs. <li>In the converted Markdown or HTML, search for inline alerts that start with >>>>>  gd2md-html alert:  for specific instances that need correction.</ul>
-
-<p style="color: red; font-weight: bold">Links to alert messages:</p>
-<p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
-
-
-
-# First Version
+## First Version
 
 [https://public.tableau.com/views/Udacity-BaseballData/5?:embed=y&:display_count=yes&publish=yes](https://public.tableau.com/views/Udacity-BaseballData/5?:embed=y&:display_count=yes&publish=yes)
 
-
-# Final Version
+## Final Version
 
 [https://public.tableau.com/views/Udacity-BaseballData/1_1?:embed=y&:display_count=yes](https://public.tableau.com/views/Udacity-BaseballData/1_1?:embed=y&:display_count=yes) 
 
-
-# Summary
+## Summary
 
 The batter's body condition seems to have related to the batting average and the number of home runs. The batter's height and weight with over 300 home runs is generally higher than the batter's height and weight with a batting average of over 0.3. When we look at the weight-to-height ratio, we can see that the best home run hitter groups have 3.0 and good contact batters have 2.1.
 
+## Design
 
-# Design
-
-
-## Sheet 1
+### Sheet 1
 
 A scatter plot is chosen to visualize the relation between hitting average and home run count. The color and filter on handedness were used to show any dependence of data on handedness. To prevent the confusion caused by the scale changes, to the scale of the axis is fixed.
 
 
-## Sheet 2, 4
+### Sheet 2, 4
 
 Scatter plots are used to show the distribution of batters on weight and height. To concentrate on the qualified batters the size of the point encoded to show home run count or hitting average. Also, to investigate any difference depending on the handedness, the handedness is encoded in color. To prevent the confusion caused by the scale changes, to the scale of the axis is fixed.
 
-
-## Sheet 5
+### Sheet 5
 
 A histogram was chosen to show the distribution of heating average and home run count depending on weight-height ratio. The double axis is chosen to show the two values in one graph. To prevent the confusion caused by the scale changes, to the scale of the axis is fixed.
 
-
-## Sheet 11
+### Sheet 11
 
 A harmonic average of HR and avg is shown using histograms. Besides high HR and avg range of weight-height ratio, I want to know the range of weight-height ratio for balanced ability between HR and avg. There are two new ranges of well-balanced ability, around 2.7 and 2.8. To show the distribution of HR and avg, each feature is shown using color.
 
+## Feedback
 
-# Feedback
-
-
-## Review 1
+### Review 1
 
 She does not like the color used in the plots. The taste of the color palette is different from person to person. So, I did not change the color palette. Also, to help her understanding, I changed to abbreviated plot title and axis labels, to full feature names.
 
-
-## Review 2
+### Review 2
 
 He asked whether I can extract other feature related to the batter. For example, slugging average, RBI. Though it is impossible to get those feature from data, I added a harmonic average of normalized avg and HR to show the balanced ability between contact ability and batting power. 
-
-
-<!-- GD2md-html version 1.0β11 -->
